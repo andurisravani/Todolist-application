@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+   <link rel="stylesheet" href="marmeto.css">
+  </head>
+  <body>
+   
+    <div class="cards">
+        <h1>SELECT YOUR CHOICE</h1>
+        <div>
+            <button id="menCards" onclick="showProducts('men')">Men</button>
+            <button id="womenCards" onclick="showProducts('women')">Women</button>
+            <button id="kidsCards" onclick="showProducts('kids')">Kids</button>
+        </div>
+    </div>
+
+    <div id="menProducts" class="product-container"></div>
+    <div id="womenProducts" class="product-container" style="display: none;"></div>
+    <div id="kidsProducts" class="product-container" style="display: none;"></div>
+    <script src="marmeto.js"></script>
+  </body>
+</html>
